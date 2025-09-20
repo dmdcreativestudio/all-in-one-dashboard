@@ -1,0 +1,2 @@
+psql -U your_db_user -d dashboard_db -f db/migrations/001_create_users_and_connected_accounts.sql
+psql -U your_db_user -d dashboard_db -f db/migrations/002_add_indexes_and_constraints.sql
