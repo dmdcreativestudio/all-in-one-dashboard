@@ -1,2 +1,2 @@
-psql -U your_db_user -d dashboard_db -f db/migrations/001_create_users_and_connected_accounts.sql
-psql -U your_db_user -d dashboard_db -f db/migrations/002_add_indexes_and_constraints.sql
+psql "postgresql://all_in_one_dashboard_user:8cFRAnPUvV5dy0zETyVUkcad5cXadLYc@dpg-d37dk93e5dus7399kj7g-a/all_in_one_dashboard" -f server/db/migrations/001_create_users_and_connected_accounts.sql
+psql "postgresql://all_in_one_dashboard_user:8cFRAnPUvV5dy0zETyVUkcad5cXadLYc@dpg-d37dk93e5dus7399kj7g-a/all_in_one_dashboard" -f server/db/migrations/002_add_indexes_and_constraints.sql
